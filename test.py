@@ -11,4 +11,7 @@ def multiply(x, y):
 
 
 def divide(x, y):
-    pass
+    if y != 0:
+        return x // y
+
+    return 0
